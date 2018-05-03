@@ -40,17 +40,8 @@ run("Dilate", "stack");
 //Save Mask
 saveAs("tiff", output+new_file+"_Nice_Mask")
 
-
-
-/*Get filename
-name=getInfo("image.filename");
-ROIname=replace(name, ".tif", "_ROIs.zip");
-*/
-
 //Clear ROI manager if autosaving ROIs!!
 roiManager("deselect")
-//roiManager("delete")
-
 if (roiManager("Count")>0){
 roiManager("delete")			//Running delete on an empty manager gives an error!
 }
