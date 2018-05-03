@@ -1,6 +1,6 @@
-/* DropletFRAPmacro1
+/* DropletFRAPmacro1_v2
  *  David Brown
- *  3rd of March 2018
+ *  3rd of May 2018
  */
 
 //Select tiff file
@@ -9,10 +9,10 @@ path = File.openDialog("Choose a .tiff File");
 input="Y://DavidB/Data/Exp0072-HP1_FRAP/Day2/";
 
 //Choose an output directory
-//output=getDirectory("Choose output folder");
+output=getDirectory("Choose output folder");
 
 //Use this output directory
-output="Y://DavidB/Data/Exp0072-HP1_FRAP/Day2/";
+//output="Y://DavidB/Data/Exp0072-HP1_FRAP/Day2/";
 //print(output)
 open(path)
 setSlice(10) //Show the Bleach Frame (in this case 10)
@@ -79,8 +79,8 @@ run("Select All");
 roiManager("Save", ROIname);
 */
 
-roiManager("Open", "Y:/DavidB/Data/Exp0072-HP1_FRAP/Day3/Combined_and_Unbleached_3x1_RoiSet.zip");
-//open("Y:/DavidB/Data/Exp0072-HP1_FRAP/Day3/Combined_and_Unbleached_3x1_RoiSet.zip"); not necessary
+//Open the original FRAP ROI
+roiManager("Open", "Y:/DavidB/Raw Data/Exp0086_HP1_FRAP/LineBleached_and_Unbleached_RoiSet.zip");
 
 //Calculate Final FRAP ROI set (always in a droplet)
 roiManager("deselect");
