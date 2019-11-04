@@ -1,3 +1,12 @@
+/*FRAP_Normalisation1.ijm
+David Brown
+2019-11-03
+
+This is an imageJ macro to process multimeasure results from FRAP ROIs.
+It expects "final_FRAP", "final_Background" and "final_Control" as columns in the imageJ Results window.
+*/
+
+
 //Subtract background 'BGD'
 for (i = 0; i < nResults; i++) {
 setResult("FRAP - BGD", i, getResult("Mean(final_FRAP)", i)-getResult("Mean(final_Background)", i));
