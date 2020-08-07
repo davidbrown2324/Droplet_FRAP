@@ -12,6 +12,14 @@ The simplest script to understand the FRAP normalisation process is [FRAP_Normal
 
 The file imports and file paths are ugly, and need tidying.
 
+To save you some time here is a quick review of the very similar .ijm scripts.
+
+ - 01_BatchFRAP_Script.ijm : This is really more of a generic batch processor, that can call a specified script.
+ - Code.ijm               : 2-Feb-2018    : Performs the normalization
+ - DropletFRAPmacro1.ijm  : 3-March-2019  : No normalization
+ - DropletFRAPmacro_Exp0133.ijm : 2-Feb-2019 : Used for a specific experiment
+ - FRAP_Normalisation1.ijm : Just the normalization of the results table
+
 I hope this is useful to someone.
 
 
