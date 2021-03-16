@@ -1,4 +1,4 @@
-# Droplet_FRAP
+# Droplet FRAP Analysis
 Droplet FRAP macros
 
 David Brown 
