@@ -12,7 +12,7 @@ The simplest script to understand the FRAP normalisation process is [FRAP_Normal
 
 The file imports and file paths are ugly, and need tidying.
 
-To save you some time here is a quick review of the very similar .ijm scripts.
+To save you some time, here is a quick review of the very similar .ijm scripts.
 
  - 01_BatchFRAP_Script.ijm : This is really more of a generic batch processor, that can call a specified script.
  - Code.ijm               : 2-Feb-2018    : Performs the normalization
