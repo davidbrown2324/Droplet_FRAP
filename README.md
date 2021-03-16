@@ -2,9 +2,9 @@
 Droplet FRAP macros
 
 David Brown 
-2020-August-07
+2021-March-16
 
-These [ImageJ macros](https://github.com/davidbrown2324/Droplet_FRAP/tree/master/ImageJ) and [R scripts](https://github.com/davidbrown2324/Droplet_FRAP/tree/master/R) were written to analyse Fluorescence Recovery After Photobleaching (FRAP) experiments.
+These [ImageJ macros](https://github.com/davidbrown2324/Droplet_FRAP/tree/master/ImageJ) and [R scripts](https://github.com/davidbrown2324/Droplet_FRAP/tree/master/R) were written to analyse Fluorescence Recovery After Photobleaching (FRAP) experiments. They were used to analyse FRAP data [published in eLife](https://elifesciences.org/articles/64563).
 
 There is a short [FRAPline_macro.ijm](https://github.com/davidbrown2324/Droplet_FRAP/blob/master/ImageJ/FRAPline_macro.ijm) to generate the original bleach ROI, and an alternate FRAPline_3pix_off_center.roi which was used when the objective was lightly misaligned.
 
@@ -20,6 +20,4 @@ To save you some time here is a quick review of the very similar .ijm scripts.
  - DropletFRAPmacro_Exp0133.ijm : 2-Feb-2019 : Used for a specific experiment
  - FRAP_Normalisation1.ijm : Just the normalization of the results table
 
-I hope this is useful to someone.
-
-
+I hope this is useful.
